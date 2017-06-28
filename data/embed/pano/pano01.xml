@@ -11,14 +11,14 @@
 			</mobile>
 		</image>
 
-		<layer name="LOGO_01" keep="false" handcursor="true" scale="0.4" alpha="1" url="%SWFPATH%/data/embed/skin/mp.png" align="topleft" x="5" y="5" onhover="showtext('大大小小梦想城',hotspottextstyle);" onclick="yd02();" />
+		<layer name="LOGO_01" keep="false" handcursor="true" scale="1" alpha="1" url="http://t.zeiot.cn/tpl/pc/img/news_pic.jpg" align="topleft" x="5" y="5" onhover="showtext('中易云(唐山)',hotspottextstyle);" onclick="yd02();" />
 		<action name="yd02">
-			openurl('http://www.ddxxmxc.com/zxyy',_blank)
+			openurl('http://www.zeiot.cn/',_blank)
 		</action>
 
-		<hotspot name="hs01" url="%SWFPATH%/data/embed/skin/db2.png" ath="269.106983" atv="8.804695" distorted="true" rx="15.25" ry="0" rz="-2.77196" width="242" height="107" scale="0.88292"  onhover="showtext('大大小小梦想城',hotspottextstyle);" onclick="yd01();"/>
+		<hotspot name="hs01" url="%SWFPATH%/data/embed/skin/db2.png" ath="269.106983" atv="8.804695" distorted="true" rx="15.25" ry="0" rz="-2.77196" width="242" height="107" scale="0.88292"  onhover="showtext('中易云(唐山)物联网科技有限公司',hotspottextstyle);" onclick="yd01();"/>
 		<action name="yd01">
-			openurl('http://j.map.baidu.com/Fx8hC',_blank)
+			openurl('http://j.map.baidu.com/ukO9I',_blank)
 		</action>
 		
 		<!-- <hotspot name="hs02" url="%SWFPATH%/data/embed/skin/mp.png" ath="0.106983" atv="8.804695" distorted="true" rx="15.25" ry="0" rz="-2.77196" width="242" height="107" scale="0.88292"  onhover="showtext('在线购票',hotspottextstyle);" onclick="yd02();"/> -->
@@ -27,7 +27,7 @@
 		<hotspot name="spot1" style="hotspot_ani_white" ath="148.652795" atv="16.823652" distorted="true" rx="2.25" ry="-46.75" rz="-16.28848" width="64" height="64" scale="1.250197" onhover="showtext('馆内',hotspottextstyle);" onclick="loadscene(scene_2, null, MERGE, BLEND(1));" />
 
 		<hotspot name="hs02" style="hotspot_ani_white1"  ath="79.681601" atv="-10.046164" distorted="true" rx="15.0" ry="13.25" rz="3.752331" width="64" height="64" scale="1.2" onhover="showtext('企业文化',hotspottextstyle);" onclick="if(layer[layer01].visible,tween(layer[layer01].alpha,0);delayedcall(0.5,set(layer[layer01].visible,false)) ,set(layer[layer01].visible,true);tween(layer[layer01].alpha,1) )" />
-		<layer name="layer01" alpha="0" keep="true" url="%SWFPATH%/data/embed/skin/1.png" align="center" visible="false" onclick="tween(alpha,0);delayedcall(0.5,set(visible,false))" scale="0.8"/>
+		<layer name="layer01" alpha="0" keep="true" url="%SWFPATH%/data/embed/skin/1.png" align="center" visible="false" onclick="tween(alpha,0);delayedcall(0.5,set(visible,false))" scale="1" width="95%" height="95%"/>
 
 		<hotspot name="videospot"
 	         url="%SWFPATH%/data/embed/plugins/videoplayer.swf"
@@ -51,6 +51,5 @@
 	         range="200"
 	         volume="0.7"
 	         onclick="togglepause();"/>
-
-
+	         
 </krpano>

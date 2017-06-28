@@ -84,9 +84,9 @@
 	<autorotate  
 
 		enabled="true"              
-		waittime="1.5"              
+		waittime="10"              
 		accel="1.0"              
-		speed="2.0"  
+		speed="0.2"  
 		horizon="0.0"              
 		tofov="off"  
 		/>
