@@ -40,6 +40,20 @@
 	           yoffset.touch="-40"
 	           />
 <!-- hotspot style predefines - white hotspot --> <!-- 动态热点 -->
+	<style name="hotspot_ani_Style5" 
+		       url="%SWFPATH%/data/embed/skin/new_spotd7_gif.png" 
+		       crop="0|0|128|128" 
+		       framewidth="128" frameheight="128" frame="0" lastframe="24"
+		       scale="1"
+		       scale.mobile="0.40"
+		       onover="tween(scale,0.7);"
+			   onout="tween(scale,0.6);"
+		       onloaded="if(distorted,add_tooltip2(get(linkedscene),1),add_all_the_time_tooltip(get(linkedscene),1));
+				   skin_hotspotstyle_animate();if(skin_settings.tooltips_hotspots, 
+				   if(linkedscene, copy(tooltip,scene[get(linkedscene)].title); 
+				   loadstyle(skin_tooltips); ));hotspot_animate();"
+			   onclick="if(linkedscene, tween(scale,0.25,0.5); tween(oy,-20,0.5); tween(alpha,0,0.5); looktohotspot(); loadscene(get(linkedscene),null,MERGE,BLEND(1)); skin_updatescroll(); );"
+		/> 
 	<style name="hotspot_ani_white"
 	       url="%SWFPATH%/data/embed/skin/hotspot_ani_white_64x64x20.png"
 	       crop="0|0|64|64"

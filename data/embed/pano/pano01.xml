@@ -1,6 +1,6 @@
 <krpano>
 
-		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" hlookat="230.441"/>
 
 		<preview url="%SWFPATH%/data/panos/1.tiles/preview.jpg" />
 
@@ -26,7 +26,7 @@
 
 		<hotspot name="spot1" style="hotspot_ani_white" ath="148.652795" atv="16.823652" distorted="true" rx="2.25" ry="-46.75" rz="-16.28848" width="64" height="64" scale="1.250197" onhover="showtext('馆内',hotspottextstyle);" onclick="loadscene(scene_2, null, MERGE, BLEND(1));" />
 
-		<hotspot name="hs02" style="hotspot_ani_white1"  ath="79.681601" atv="-10.046164" distorted="true" rx="15.0" ry="13.25" rz="3.752331" width="64" height="64" scale="1.2" onhover="showtext('企业文化',hotspottextstyle);" onclick="if(layer[layer01].visible,tween(layer[layer01].alpha,0);delayedcall(0.5,set(layer[layer01].visible,false)) ,set(layer[layer01].visible,true);tween(layer[layer01].alpha,1) )" />
+		<hotspot name="hs02" style="hotspot_ani_Style5"  ath="-145.681601" atv="-10.046164" distorted="true" width="64" height="64" scale="1" onhover="showtext('企业文化',hotspottextstyle);" onclick="if(layer[layer01].visible,tween(layer[layer01].alpha,0);delayedcall(0.5,set(layer[layer01].visible,false)) ,set(layer[layer01].visible,true);tween(layer[layer01].alpha,1) )" />
 		<layer name="layer01" alpha="0" keep="true" url="%SWFPATH%/data/embed/skin/1.png" align="center" visible="false" onclick="tween(alpha,0);delayedcall(0.5,set(visible,false))" scale="1" width="85%" height="95%"/>
 
 		<hotspot name="videospot"
