@@ -78,6 +78,7 @@
 		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
 		loadscene(get(startscene), null, MERGE);
 		if(startactions !== null, startactions() );
+		set(control.mousetype, drag2D);
 		playsound(bgsnd, '%SWFPATH%/data/embed/sound/bj.mp3', 0);
 	</action>
 	
