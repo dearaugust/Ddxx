@@ -11,7 +11,7 @@
 			</mobile>
 		</image>
 
-		<layer name="LOGO_01" keep="false" handcursor="true" scale="1" alpha="1" url="http://t.zeiot.cn/tpl/pc/img/news_pic.jpg" align="topleft" x="5" y="5" onhover="showtext('唐山大大小小梦想城',hotspottextstyle);" onclick="yd02();" />
+		<layer name="LOGO_01" keep="false" handcursor="true" scale="1" alpha="1" url="%SWFPATH%/data/embed/skin/mp.png" align="topleft" x="5" y="5" onhover="showtext('唐山大大小小梦想城',hotspottextstyle);" onclick="yd02();" />
 		<action name="yd02">
 			openurl('http://www.zeiot.cn/',_blank)
 		</action>
