@@ -11,12 +11,12 @@
 			</mobile>
 		</image>
 
-		<layer name="LOGO_01" keep="false" handcursor="true" scale="1" alpha="1" url="http://t.zeiot.cn/tpl/pc/img/news_pic.jpg" align="topleft" x="5" y="5" onhover="showtext('中易云(唐山)',hotspottextstyle);" onclick="yd02();" />
+		<layer name="LOGO_01" keep="false" handcursor="true" scale="1" alpha="1" url="http://t.zeiot.cn/tpl/pc/img/news_pic.jpg" align="topleft" x="5" y="5" onhover="showtext('唐山大大小小梦想城',hotspottextstyle);" onclick="yd02();" />
 		<action name="yd02">
 			openurl('http://www.zeiot.cn/',_blank)
 		</action>
 		
-		<hotspot name="hs01" url="%SWFPATH%/data/embed/skin/db2.png" ath="269.106983" atv="8.804695" distorted="true" rx="15.25" ry="0" rz="-2.77196" width="242" height="107" scale="0.88292"  onhover="showtext('中易云(唐山)物联网科技有限公司',hotspottextstyle);" onclick="yd01();"/>
+		<hotspot name="hs01" url="%SWFPATH%/data/embed/skin/db2.png" ath="269.106983" atv="8.804695" distorted="true" rx="15.25" ry="0" rz="-2.77196" width="242" height="107" scale="0.88292"  onhover="showtext('唐山大大小小梦想城',hotspottextstyle);" onclick="yd01();"/>
 		<action name="yd01">
 			openurl('http://j.map.baidu.com/ukO9I',_blank)
 		</action>
